@@ -18,6 +18,16 @@ func main() {
 }
 ```
 
+Or the same program in node.js:
+
+```js
+function main() {
+  workA() // 13ms
+  workB() // 25ms
+  setTimeout(main, 62) // 62ms
+}
+```
+
 ```
 $ go run .
 Perfect Wallclock Profiler
