@@ -1,7 +1,3 @@
-// profiler-simulator is a program that simulates the results different profiler
-// implementations will give for the execution of a simulated program. Currently
-// only single threaded execution is implemented, but that should be good enough
-// to simulate many interesting scenarios.
 package main
 
 import (
